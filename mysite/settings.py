@@ -25,7 +25,7 @@ SECRET_KEY = 'enq1m9rpwwg*zv6c_g_8)#j_q3ll_8-b3jd21-eb715664(id0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['de4r.pythonanywhere.com']
 
 
 # Application definition
@@ -149,3 +149,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = '/home/de4r/mysite/static'
