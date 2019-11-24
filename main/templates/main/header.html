@@ -1,24 +1,31 @@
+<html>
 <head>
     {% load static %}
     <link href="{% static 'tinymce/css/prism.css' %}" rel="stylesheet">
-     <!-- Compiled and minified CSS -->
+    <!-- Compiled and minified CSS -->
     <link href="{% static 'main/css/materialize.css' %}" rel="stylesheet">
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
 
-<body>
-
-    {% include "main/includes/navbar.html" %}
-    {% include "main/includes/messages.html" %}
-
+<body class="grey darken-3">
+{% include "main/includes/navbar.html" %}
+{% include "main/includes/messages.html" %}
+<main>
     <div class="container">
-      <br>
-      {% block content %}
-      {% endblock %}
+        <br>
+        {% block content %}
+        {% endblock %}
     </div>
+</main>
+
+{% include "main/includes/footer.html" %}
+
+
 </body>
 
 <script src="{% static 'tinymce/js/prism.js' %}"></script>
 <script>M.AutoInit();</script>
+
+</html>

@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87cee921-6eec-442e-9b65-ce04f2af91a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/templates/main/includes/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/main/css/materialize.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/css/materialize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/main/includes/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/includes/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/tutorial.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/tutorial.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
     </list>
@@ -28,17 +35,17 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main/templates/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main/templates/main/includes" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Programowanie\mysite\main\templates\main" />
-      <recent name="D:\Programowanie\mysite\main\templates\main\includes" />
-      <recent name="D:\Programowanie\mysite\main" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Programowanie\mysite\main\templates\main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programowanie\mysite\main\templates\main\includes" />
+      <recent name="D:\Programowanie\mysite\main\templates\main" />
+      <recent name="D:\Programowanie\mysite\main" />
     </key>
   </component>
   <component name="RunDashboard">

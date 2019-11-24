@@ -1622,6 +1622,9 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
   margin: 0; }
 
 /**
@@ -1653,6 +1656,7 @@ figcaption,
 figure,
 main {
   /* 1 */
+  flex: 1 0 auto;
   display: block; }
 
 /**
