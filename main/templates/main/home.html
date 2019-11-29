@@ -1,22 +1,36 @@
 {% extends "main/header.html" %}
-
+<!--not working-->
 {% block content %}
-    <div class="row">
-        {% for tut in tutorials %}
-        <div class="col s12 m6 l4 grey lighten-4">
-            <div class="card blue-grey darken-1">
-                <div class="card-content white-text">
-                    <span class="card-title">{{tut.tutorialTitle}}</span>
-                    <p>{{tut.tutorialContent|safe}}</p>
-                    <p><br><br></p>
-                    <p style="font-size:70%">{{tut.tutorialPublished}}</p>
-                </div>
-            <div class="card-action">
-                <a href="#">This is a link</a>
-                <a href="#">This is a link</a>
-            </div>
-          </div>
-        </div>
-        {% endfor %}
-  </div>
+<div class="row">
+    <div class="col s12, m8, 18 grey lighten-2">
+        <h3>{{post.post_title}}</h3>
+        <p style="font:size:70%">Published {{post.post_published}}</p>
+        {{post.postContent|safe}}
+    </div>
+
+    <div class="col 12 m4 14">
+        <ul class="collapsible popout">
+            {% for post in sidebar %}
+                {% if forloop.counter0 == this_post_index %}
+                    <li class="active">
+                        <div class="collapsible-header grey lighten-1">{{post.post_title}}<br>(currently viewing)
+                        </div>
+                    </li>
+                {% else %}
+                    <li>
+                        <div class="collapsible-header grey lighten-1">{{post.post_title}}</div>
+                        <div class="collapsible-body grey darken-1">
+                            <p>
+                                <a href="/{{post.post_slug}}">
+                                    <button class="btn waves-effect waves-light right-align"
+                                            style="background-color:yellow; color:black">Go</button>
+                                </a>
+                            </p>
+                        </div>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</div>
 {% endblock %}

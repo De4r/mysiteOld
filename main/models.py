@@ -41,3 +41,14 @@ class Tutorial(models.Model):
 
     def __str__(self):
         return self.tutorialTitle
+
+
+# class Post(models.Model):
+#     post_title = models.CharField(max_length=200)
+#     post_content = models.TextField()
+#     post_published = models.DateTimeField("date published", default=datetime.now)
+#
+#     # tutorial_series = models.ForeignKey(TutorialSeries, default=1,
+#     #                                     verbose_name="Series",
+#     #                                     on_delete=models.CASCADE)
+#     post_slug = models.CharField(max_length=200, default=1)
